@@ -2,6 +2,20 @@
 
 ## Content
 
+  - [Anvio: Importing genomes](#anvio-importing-genomes)
+    - [Re-formatting input FASTA](#re-formatting-input-fasta)
+    - [Creating an anvi’o contigs database](#creating-an-anvio-contigs-database)
+    - [Genome similarities: ANI](#genome-similarities-ani)
+    - [Annotations](#annotations)
+    - [Extracting 16S rRNA genes](#extracting-16s-rrna-genes)
+  - [Phylogenomics](#phylogenomics)
+    - [Make list of genes](#make-list-of-genes)
+    - [Get amino acid sequences](#get-amino-acid-sequences)
+    - [Align individual sequences with mafft](#align-individual-sequences-with-mafft)
+    - [Trimming](#trimming)
+    - [Concatenate](#concatenate)
+    - [Build tree](#build-tree)
+
 ## Anvio: Importing genomes
 - https://anvio.org/
 
