@@ -7,10 +7,13 @@ https://youtube.com/playlist?list=PL7133RHfhW-MwCLz-c2DZxAmtoHipqBcL&si=lvaZ9sGu
 
 ## Content
 
+  - [Intro to working with command line (bioinformatics)](#intro-to-working-with-command-line-bioinformatics)
+  - [Setting up the Windows subsystem for Linux (WSL)](#setting-up-the-windows-subsystem-for-linux-wsl)
+  - [Downloading programs and setting up conda environments](#downloading-programs-and-setting-up-conda-environments)
+  - [Useful pieces of code](#useful-pieces-of-code)
   - [Anvio: Importing genomes](#anvio-importing-genomes)
     - [Re-formatting input FASTA](#re-formatting-input-fasta)
     - [Creating an anvi’o contigs database](#creating-an-anvio-contigs-database)
-    - [Genome similarities: ANI](#genome-similarities-ani)
     - [Annotations](#annotations)
     - [Extracting 16S rRNA genes](#extracting-16s-rrna-genes)
   - [Phylogenomics](#phylogenomics)
@@ -20,6 +23,10 @@ https://youtube.com/playlist?list=PL7133RHfhW-MwCLz-c2DZxAmtoHipqBcL&si=lvaZ9sGu
     - [Trimming](#trimming)
     - [Concatenate](#concatenate)
     - [Build tree](#build-tree)
+  - [Genome similarity](#genome-similarity)
+    - [Average nucleotide identity (ANI)](#average-nucleotide-identity-ani)
+    - [Average aminoacid identity (AAI)](#average-aminoacid-identity-aai)
+  - [Annotation](#annotation)
 
 ## Intro to working with command line (bioinformatics)
 Learning the basics of the command line is valuable so you can use the most commonly used bioinformatics tools. 
@@ -30,14 +37,21 @@ In case you want to play around with command line, here is a very nice UNIX tuto
 
 It might feel a bit overwhelming at first, but don’t get discouraged.
 
-
-## Setting up the WSL
+## Setting up the Windows subsystem for Linux (WSL)
 Most people first dipping their toes into bioinformatics analyses will have a Windows computer.
 To perform the following analyses, you will need to install the Windows subsystem for Linux: https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US
 
 For easier management, I would also recommend installing Windows Terminal and use this to work in the Ubuntu tab: https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-us&gl=US
 
 ## Downloading programs and setting up conda environments
+To understand conda to manage your programs, have a look at this conda tutorial: https://www.youtube.com/watch?v=sDCtY9Z1bqE
+
+1. In WSL, install Miniconda, following these instructions: [https://www.anaconda.com/docs/getting-started/miniconda/install/overview](https://www.anaconda.com/docs/getting-started/miniconda/install/linux-install)
+Close and re-open your terminal window for the installation to fully take effect.
+
+2. Create a conda environment
+
+3. Install conda packages
 
 ## Useful pieces of code
 Ask the intrenet for code advice if you get stuck.
