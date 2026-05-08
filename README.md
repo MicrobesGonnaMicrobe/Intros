@@ -202,8 +202,9 @@ Various methods allow to assess the confidence in branching patterns or branch s
 Run another tree with a selected best-fit model (in the case below it was LG+F+R7) and bootstrapping.
 
 ##### Ultrafast bootstrapping and SH-like approximate likelihood ratio test (SH-aLRT)
+```bash
 iqtree -s Zetaproteobacteria_concat_mafft_trimal.fa -m LG+F+R7 -v -bb 1000 -alrt 1000 -nt 4 -pre Zetaproteobacteria_bb1000alrt1000_LG_F_R7
-
+```
 Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%).
 From IQ-TREE page: "One would typically start to rely on the clade if its SH-aLRT >= 80% and UFboot >= 95%."
 
