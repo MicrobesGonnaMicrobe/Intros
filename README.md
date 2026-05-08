@@ -1,4 +1,9 @@
-# Intros
+# Introduction 
+
+This is an introduction to methods used in some smaller projects, such as a master thesis.
+
+For theoretical background, I recommend having a look at this webinar series Microbial 'Omics for Beginners from the Meren lab:
+https://youtube.com/playlist?list=PL7133RHfhW-MwCLz-c2DZxAmtoHipqBcL&si=lvaZ9sGuyEsVXmVP
 
 ## Content
 
@@ -15,6 +20,29 @@
     - [Trimming](#trimming)
     - [Concatenate](#concatenate)
     - [Build tree](#build-tree)
+
+## Intro to working with command line (bioinformatics)
+Learning the basics of the command line is valuable so you can use the most commonly used bioinformatics tools. 
+To start and get a feeling of it, have a look at this video of a Command Line Crash Course For Beginners: https://www.youtube.com/watch?v=uwAqEzhyjtw
+
+If you prefer to read, here is a nice explanation of terminal (read until Connecting commands together with pipes): https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line
+In case you want to play around with command line, here is a very nice UNIX tutorial with example files: https://ndombrowski.github.io/Unix_tutorial/
+
+It might feel a bit overwhelming at first, but don’t get discouraged.
+
+
+## Setting up the WSL
+Most people first dipping their toes into bioinformatics analyses will have a Windows computer.
+To perform the following analyses, you will need to install the Windows subsystem for Linux: https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US
+
+For easier management, I would also recommend installing Windows Terminal and use this to work in the Ubuntu tab: https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-us&gl=US
+
+## Downloading programs and setting up conda environments
+
+## Useful pieces of code
+Ask the intrenet for code advice if you get stuck.
+Here is a list of some useful commands that might come in handy: https://github.com/MicrobesGonnaMicrobe/tools
+
 
 ## Anvio: Importing genomes
 - https://anvio.org/
@@ -36,11 +64,6 @@ With reformated fasta.
 cd anvio_reformatfasta
 mkdir contigs_database
 for i in *.fa; do anvi-gen-contigs-database -f ${i} -o contigs_database/${i%.fa}.db --num-threads 6; done
-```
-
-### Genome similarities: ANI
-```
-anvi-compute-genome-similarity -e external_selected_genomes.txt -o DPANN_HighMediumQC_ANI --program pyANI --method ANIb -T 25
 ```
 
 #### How to make external_selected_genomes.txt
@@ -69,8 +92,9 @@ anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt
 ```
 
 ## Phylogenomics
-Overview of the workflow:
+Have a look at this video explaining phylogenomics: https://www.youtube.com/live/hfHu8Lnwgzs?si=6uKKPtg2f7JXcL08
 
+Overview of the workflow:
 - Anvio
 - MAFFT
 - AliView
@@ -86,7 +110,6 @@ anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt
 ```
 ### Get amino acid sequences
 ```bash
-anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt --hmm-source GTDB_bac120_r202 --list-available-gene-names
 anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt --hmm-source Bacteria_71 --list-available-gene-names
 ```
 
@@ -95,25 +118,21 @@ Decide which set of markers to use
 - select the ones that are mostly present in the genomes
 - more good quality marker genes, the better
 
-To check presence of marker genes in all genomes (matrix):
+Not always needed, only when deciding which markers to use: To check presence of marker genes in all genomes (matrix):
 ```bash
-anvi-script-gen-hmm-hits-matrix-across-genomes --external-genomes external_selected_genomes.txt --hmm-source GTDB_bac120_r202 -o Zeta_GTDB_bac120_markers_matrix.txt
+anvi-script-gen-hmm-hits-matrix-across-genomes --external-genomes external_selected_genomes.txt --hmm-source Bacteria_71 -o Zeta_Bacteria71_markers_matrix.txt
 ```
 
 Choose a subset of those genes and get them in one fasta file (without alignment and concatenation)
 ```bash
 anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt -o Zetaproteobacteria_selectedmarkers_Bacteria71.fa --hmm-source Bacteria_71 --gene-names Zetaproteobacteria_selectedmarkers_Bacteria71.txt --return-best-hit --get-aa-sequences
-
-anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt -o Zetaproteobacteria_selectedmarkers_GTDB_bac120.fa --hmm-source GTDB_bac120_r202 --gene-names Zetaproteobacteria_selectedmarkers_GTDB_bac120.txt --return-best-hit --get-aa-sequences
 ```
+For --gene-names, you can either provide a list of selected markers (for example --gene-names Ribosomal_L1,Ribosomal_L2,Ribosomal_L3) or a text file including names of selected markers (--gene-names Zetaproteobacteria_selectedmarkers_Bacteria71.txt).
 
-Make separate trees for all separate proteins (to check if monophyletic/good marker genes)
+
+Not always needed, only when deciding which markers to use: Make separate trees for all separate proteins (to check if monophyletic/good marker genes)
 ```bash
 anvi-gen-phylogenomic-tree -f Zetas_ribosomal_L15.fa -o Zetas_ribosomal_L15_tree.txt
-
-or
-
-FastTree protein_alignment > tree_file
 ```
 
 Split multifasta markers from anvio into single marker files
@@ -164,12 +183,38 @@ Choose the best substitution model (Best-fit model)
 iqtree -s Zetaproteobacteria_concat_mafft_trimal.fa -m MFP -madd LG+C10,LG+C20,LG+C30,LG+C40,LG+C50,LG+C60,LG+C10+R+F,LG+C20+R+F,LG+C30+R+F,LG+C40+R+F,LG+C50+R+F,LG+C60+R+F -v -nt 4
 ```
 
-#### The standard non-parametric bootstraping with 1000 replicates
+#### Bootstrapping
+Various methods allow to assess the confidence in branching patterns or branch supports.
+Run another tree with a selected best-fit model (in the case below it was LG+F+R7) and bootstrapping.
+
+##### Ultrafast bootstrapping and SH-like approximate likelihood ratio test (SH-aLRT)
+iqtree -s Zetaproteobacteria_concat_mafft_trimal.fa -m LG+F+R7 -v -bb 1000 -alrt 1000 -nt 4 -pre Zetaproteobacteria_bb1000alrt1000_LG_F_R7
+
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%).
+From IQ-TREE page: "One would typically start to rely on the clade if its SH-aLRT >= 80% and UFboot >= 95%."
+
+##### The standard non-parametric bootstrapping with 1000 replicates
+This can take very long time, so only do this when everything else is ready and this much use of computational resources is needed (always run on the server).
 ```bash
 iqtree -s Zetaproteobacteria_concat_mafft_trimal.fa -m LG+F+R7 -b 1000 -nt 4 -pre Zetaproteobacteria_b1000_LG_F_R7
 ```
 
+#### Tree visualisation and annotation
 Visualise the tree by importing to iTOL and use templates for tree annotation: https://itol.embl.de/help.cgi#annot
 
+## Genome similarity
 
+### Average nucleotide identity (ANI)
+```
+anvi-compute-genome-similarity -e external_selected_genomes.txt -o DPANN_HighMediumQC_ANI --program pyANI --method ANIb -T 25
+```
+In the resulting graphic, define thresholds (for example yellow for under 65% AAI, orange for over 65% AAI (genus threshold)).
 
+### Average aminoacid identity (AAI)
+
+One program option: ezAAI
+Follow the tutorial on this page: https://endixk.github.io/ezaai/
+
+In the resulting graphic, define thresholds (for example yellow for under 65% AAI, orange for over 65% AAI (genus threshold)).
+
+## Annotation
