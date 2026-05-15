@@ -223,7 +223,7 @@ Visualise the tree by importing to iTOL and use templates for tree annotation: h
 ```
 anvi-compute-genome-similarity -e external_selected_genomes.txt -o DPANN_HighMediumQC_ANI --program pyANI --method ANIb -T 25
 ```
-In the resulting graphic, define thresholds (for example yellow for under 65% AAI, orange for over 65% AAI (genus threshold)).
+In the resulting graphic, define thresholds (for example yellow for under 95% ANI, red for over 95% ANII (species threshold)).
 
 ### Average aminoacid identity (AAI)
 
@@ -233,3 +233,16 @@ Follow the tutorial on this page: https://endixk.github.io/ezaai/
 In the resulting graphic, define thresholds (for example yellow for under 65% AAI, orange for over 65% AAI (genus threshold)).
 
 ## Annotation
+
+## Plotting in R
+
+Here are some examples of code for plots:
+- Relative abundance
+
+Background on stacked barcharts: https://www.youtube.com/watch?v=NVym44SdcaE and https://www.youtube.com/watch?v=w4X3o6MQjVA
+
+- Heatmap for ANI / AAI
+
+Background on heatmaps: https://www.youtube.com/watch?v=-4sGamyqGAQ
+
+- Metabolism presence/absence
