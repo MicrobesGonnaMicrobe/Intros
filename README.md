@@ -7,18 +7,17 @@ https://youtube.com/playlist?list=PL7133RHfhW-MwCLz-c2DZxAmtoHipqBcL&si=lvaZ9sGu
 - Explanations of couple of 'omics concepts: https://anvio.org/vocabulary/
 
 ## Content
-
-  - [Intro to working with command line (bioinformatics)](#intro-to-working-with-command-line-bioinformatics)
+  - [Intro to working with command line / Basic Unix (bioinformatics)](#intro-to-working-with-command-line-basic-unix-bioinformatics)
   - [Setting up the Windows subsystem for Linux (WSL)](#setting-up-the-windows-subsystem-for-linux-wsl)
   - [Downloading programs and setting up conda environments](#downloading-programs-and-setting-up-conda-environments)
   - [Useful pieces of code](#useful-pieces-of-code)
-  - [Anvio: Importing genomes](#anvio-importing-genomes)
-    - [Re-formatting input FASTA](#re-formatting-input-fasta)
-    - [Creating an anvi’o contigs database](#creating-an-anvio-contigs-database)
+  - [Downloading genomes on NCBI + check GTDB](#downloading-genomes-on-ncbi-check-gtdb)
+  - [Anvio](#anvio)
+    - [Importing genomes to Anvio](#importing-genomes-to-anvio)
     - [Annotations](#annotations)
     - [Extracting 16S rRNA genes](#extracting-16s-rrna-genes)
   - [Phylogenomics](#phylogenomics)
-    - [Make list of genes](#make-list-of-genes)
+    - [Make a list of single copy genes to use](#make-a-list-of-single-copy-genes-to-use)
     - [Get amino acid sequences](#get-amino-acid-sequences)
     - [Align individual sequences with mafft](#align-individual-sequences-with-mafft)
     - [Trimming](#trimming)
@@ -27,7 +26,9 @@ https://youtube.com/playlist?list=PL7133RHfhW-MwCLz-c2DZxAmtoHipqBcL&si=lvaZ9sGu
   - [Genome similarity](#genome-similarity)
     - [Average nucleotide identity (ANI)](#average-nucleotide-identity-ani)
     - [Average aminoacid identity (AAI)](#average-aminoacid-identity-aai)
-  - [Annotation](#annotation)
+  - [Gene annotation](#gene-annotation)
+  - [Pangenomics](#pangenomics)
+  - [Plotting in R](#plotting-in-r)
 
 ## Intro to working with command line / Basic Unix (bioinformatics)
 Learning the basics of the command line is valuable so you can use the most commonly used bioinformatics tools. 
