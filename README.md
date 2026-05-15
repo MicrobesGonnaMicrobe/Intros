@@ -2,8 +2,9 @@
 
 This is an introduction to methods used in some smaller projects, such as a master thesis.
 
-For theoretical background, I recommend having a look at this webinar series Microbial 'Omics for Beginners from the Meren lab:
+- For theoretical background on 'omics, I recommend having a look at this webinar series Microbial 'Omics for Beginners from the Meren lab:
 https://youtube.com/playlist?list=PL7133RHfhW-MwCLz-c2DZxAmtoHipqBcL&si=lvaZ9sGuyEsVXmVP
+- Explanations of couple of 'omics concepts: https://anvio.org/vocabulary/
 
 ## Content
 
@@ -28,11 +29,11 @@ https://youtube.com/playlist?list=PL7133RHfhW-MwCLz-c2DZxAmtoHipqBcL&si=lvaZ9sGu
     - [Average aminoacid identity (AAI)](#average-aminoacid-identity-aai)
   - [Annotation](#annotation)
 
-## Intro to working with command line (bioinformatics)
+## Intro to working with command line / Basic Unix (bioinformatics)
 Learning the basics of the command line is valuable so you can use the most commonly used bioinformatics tools. 
-To start and get a feeling of it, have a look at this video of a Command Line Crash Course For Beginners: https://www.youtube.com/watch?v=uwAqEzhyjtw
+To start and get a feeling of it, have a look at this video series of Basic Unix lessons for bioinformatics: https://youtube.com/playlist?list=PL4K-daRUS2A-knoIZVV5SJkEkZhqfdHVB&si=nV1uEyOjEV5asOSH
+The written part of the lessons can be found here: https://astrobiomike.github.io/unix/unix-intro
 
-If you prefer to read, here is a nice explanation of terminal (read until Connecting commands together with pipes): https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line
 In case you want to play around with command line, here is a very nice UNIX tutorial with example files: https://ndombrowski.github.io/Unix_tutorial/
 
 It might feel a bit overwhelming at first, but don’t get discouraged.
@@ -44,24 +45,31 @@ To perform the following analyses, you will need to install the Windows subsyste
 For easier management, I would also recommend installing Windows Terminal and use this to work in the Ubuntu tab: https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-us&gl=US
 
 ## Downloading programs and setting up conda environments
-To understand conda to manage your programs, have a look at this conda tutorial: https://www.youtube.com/watch?v=sDCtY9Z1bqE
+To understand what is conda and how we use it to manage programs, have a look at this conda tutorial: https://youtu.be/ukgogSsW7oI?si=qI2OWrUQxIDwJrD3
 
 1. In WSL, install Miniconda, following these instructions: [https://www.anaconda.com/docs/getting-started/miniconda/install/overview](https://www.anaconda.com/docs/getting-started/miniconda/install/linux-install)
 Close and re-open your terminal window for the installation to fully take effect.
 
-2. Create a conda environment
+2. Create a conda environment and activate it
 
-3. Install conda packages
+3. Install conda packages (like the anvio program, see below).
 
 ## Useful pieces of code
 Ask the intrenet for code advice if you get stuck.
 Here is a list of some useful commands that might come in handy: https://github.com/MicrobesGonnaMicrobe/tools
 
+## Downloading genomes on NCBI + check GTDB
 
-## Anvio: Importing genomes
-- https://anvio.org/
+Don't forget to gather metadata information!
 
-### Re-formatting input FASTA
+## Anvio
+For some analyses we will be using anvi'o, a platform for microbial 'omics. 
+- Instructions to install here: https://anvio.org/install/
+Video on what it can be used for: https://merenlab.org/2016/11/08/pangenomics-v2/
+
+### Importing genomes to Anvio
+
+#### Re-formatting input FASTA
 ```
 mkdir anvio_reformatfasta
 ```
@@ -71,7 +79,7 @@ For loop:
 for i in *.fa; do anvi-script-reformat-fasta --simplify-names --seq-type NT -r "report_simplify_names"${i}.txt  -o anvio_reformatfasta/${i} ${i}; done
 ```
 
-### Creating an anvi’o contigs database
+#### Creating an anvi’o contigs database
 With reformated fasta.
 
 ```
@@ -117,7 +125,7 @@ Overview of the workflow:
 - IQ-TREE
 - ITOL: https://itol.embl.de/help.cgi#annot
 
-### Make list of genes
+### Make a list of single copy genes to use
 List available HMM sources in the contigs database
 ```bash
 anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt --list-hmm-sources
@@ -232,12 +240,25 @@ Follow the tutorial on this page: https://endixk.github.io/ezaai/
 
 In the resulting graphic, define thresholds (for example yellow for under 65% AAI, orange for over 65% AAI (genus threshold)).
 
-## Annotation
+## Gene annotation
+A quick introduction to annotation in this video (watch the first 27 min) - https://www.youtube.com/watch?v=OaIgO7VKpS8 
+Introduction to annotation with KEGG (watch the first 6 min) - https://www.youtube.com/watch?v=1v4UzjE7K2g
+
+Annotation of several genomes using several databases can be computationally demanding. You will most likely receive already annotated genomes, following this annotation protocol: https://ndombrowski.github.io/Annotation_workflow/
+
+It is great to screen through the annotation files manually to get a feel for what kind of gene annotations you find in your genomes.
+Not all annotations might be accurate. Be aware of length of the predicted gene, position on contig, and genes around it (downstream and upstream).
+
+To visualise presence / absence of specific genes, you can visualise them in a heatmap
+- R visualisation tutorial: https://ndombrowski.github.io/R_tutorial/#working-with-annotation-data
+
+## Pangenomics
+There is an anvi'o workflow for making pangenomes (usually focusing on one genus) - https://merenlab.org/2016/11/08/pangenomics-v2/
 
 ## Plotting in R
 
 Here are some examples of code for plots:
-- Relative abundance
+- Relative abundance (Relative_abundances_plot_MAGs.r)
 
 Background on stacked barcharts: https://www.youtube.com/watch?v=NVym44SdcaE and https://www.youtube.com/watch?v=w4X3o6MQjVA
 
