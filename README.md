@@ -41,7 +41,7 @@ It might feel a bit overwhelming at first, but don’t get discouraged.
 
 ## Setting up the Windows subsystem for Linux (WSL)
 Most people first dipping their toes into bioinformatics analyses will have a Windows computer.
-To perform the following analyses, you will need to install the Windows subsystem for Linux: https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US
+To perform the following analyses, you will need to install the Windows subsystem for Linux: [https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US](https://apps.microsoft.com/detail/9pdxgncfsczv?hl=en-US&gl=US)
 
 For easier management, I would also recommend installing Windows Terminal and use this to work in the Ubuntu tab: https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-us&gl=US
 
