@@ -1,0 +1,65 @@
+DATASET_SIMPLEBAR
+SEPARATOR COMMA
+
+DATASET_LABEL,Completeness
+COLOR,#1f77b4
+SHOW_VALUES,1
+DATASET_LABEL,label 1
+
+
+LEGEND_TITLE,Dataset legend
+LEGEND_SHAPES,1
+LEGEND_COLORS,#1f77b4
+LEGEND_LABELS,Completeness
+LABEL_POSITION,outside-right
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+#only numeric values are required for each ID, custom labels can be optionally provided as the second field (shown when SHOW_LABELS is set to 1) 
+DATA
+#ID1,value1,label1
+#ID2,value2,label2
+#9606,10000,Homo sapiens value
+#LEAF1|LEAF2,11000
+GCA_001304365_1,63
+GCA_011039335_1,75
+GCA_021159505_1,73
+GCA_021160485_1,81
+GCA_021163945_1,83
+GCA_027038965_1,100
+GCA_027064585_1,100
+GCA_029933935_1,89
+GCA_029935635_1,82
+GCA_029938675_1,78
+GCA_030262725_1,100
+GCA_030262805_1,84
+GCA_030262835_1,79
+GCA_030262855_1,100
+GCA_905171705_1,81
+GCA_905171745_1,95
+GCA_905171755_1,92
+GCF_001577525_1,100
+Mohns_M83_B501,49
+bin_103,90
+Mohns_M83_B216,66
+Mohns_M83_B511,68
+INS_M10_B69,60
+INS_M11_B29,82
+INS_M12_B87,72
+INS_M14_B33,73
+INS_M15_B33,60
+INS_M19_B92,85
+Barite_M2_B14,89
+INS_M20_B192,87
+INS_M28_B7,89
+INS_M29_B151,90
+INS_M34_B83,89
+Barite_M4_B2,85
+INS_M7_B33,79
+INS_M8_B26,88
+INS_M9_B129,86
+GEM_3300026512_14,99
+GEM_3300021493_6,81
+

@@ -1,0 +1,70 @@
+TREE_COLORS
+#use this template to define branch colors and styles, colored ranges and label colors/font styles/backgrounds
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#First 3 fields define the node, type and color
+#Possible types are:
+#'range': defines a colored range (colored background for labels/clade)
+#'clade': defines color/style for all branches in a clade
+#'branch': defines color/style for a single branch
+#'label': defines font color/style for the leaf label
+#'label_background': defines the leaf label background color
+
+#The following additional fields are required:
+#for 'range', field 4 defines the colored range label (used in the legend)
+
+#The following additional fields are optional:
+#for 'label', field 4 defines the font style ('normal',''bold', 'italic' or 'bold-italic') and field 5 defines the numeric scale factor for the font size (eg. with value 2, font size for that label will be 2x the standard size)
+#for 'clade' and 'branch', field 4 defines the branch style ('normal' or 'dashed') and field 5 defines the branch width scale factor (eg. with value 0.5, branch width for that clade will be 0.5 the standard width)
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+GCA_001304365.1	label	#000000	normal	1
+GCA_011039335.1	label	#000000	normal	1
+GCA_021159505.1	label	#000000	normal	1
+GCA_021160485.1	label	#000000	normal	1
+GCA_021163945.1	label	#000000	normal	1
+GCA_027038965.1	label	#000000	normal	1
+GCA_027064585.1	label	#000000	normal	1
+GCA_029933935.1	label	#000000	normal	1
+GCA_029935635.1	label	#000000	normal	1
+GCA_029938675.1	label	#000000	normal	1
+GCA_030262725.1	label	#000000	normal	1
+GCA_030262805.1	label	#000000	normal	1
+GCA_030262835.1	label	#000000	normal	1
+GCA_030262855.1	label	#000000	normal	1
+GCA_905171705.1	label	#000000	normal	1
+GCA_905171745.1	label	#000000	normal	1
+GCA_905171755.1	label	#000000	normal	1
+GCF_001577525.1	label	#000000	normal	1
+Mohns_M83_B501	label	#0000ff	bold	1
+bin_103	label	#0000ff	bold	1
+Mohns_M83_B216	label	#0000ff	bold	1
+Mohns_M83_B511	label	#0000ff	bold	1
+INS_M10_B69	label	#000000	bold	1
+INS_M11_B29	label	#000000	bold	1
+INS_M12_B87	label	#000000	bold	1
+INS_M14_B33	label	#000000	bold	1
+INS_M15_B33	label	#000000	bold	1
+INS_M19_B92	label	#000000	bold	1
+Barite_M2_B14	label	#000000	bold	1
+INS_M20_B192	label	#000000	bold	1
+INS_M28_B7	label	#000000	bold	1
+INS_M29_B151	label	#000000	bold	1
+INS_M34_B83	label	#000000	bold	1
+Barite_M4_B2	label	#000000	bold	1
+INS_M7_B33	label	#000000	bold	1
+INS_M8_B26	label	#000000	bold	1
+INS_M9_B129	label	#000000	bold	1

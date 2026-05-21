@@ -1,0 +1,56 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+
+#SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+SEPARATOR TAB
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+GCA_001304365_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__DG-60; g__DG-60; s__DG-60 sp001304365
+GCA_011039335_1	Candidatus Desulfofervidus auxilii (NCBI)
+GCA_021159505_1	Candidatus Desulfofervidus sp. (NCBI)
+GCA_021160485_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__JAJSZL01; s__JAJSZL01 sp021160485
+GCA_021163945_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__DG-60; g__JAGGTC01; s__JAGGTC01 sp021163945
+GCA_027038965_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__JAGHCL01; s__JAGHCL01 sp027038965
+GCA_027064585_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__JAGHCL01; s__JAGHCL01 sp027064585
+GCA_029933935_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__DG-60; g__JAGGTC01; s__JAGGTC01 sp021163945
+GCA_029935635_1	Candidatus Desulfofervidus auxilii (NCBI)
+GCA_029938675_1	Candidatus Desulfofervidus sp. (NCBI)
+GCA_030262725_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__JAJSZS01; s__JAJSZS01 sp030262725
+GCA_030262805_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__Desulfofervidus; s__Desulfofervidus auxilii
+GCA_030262835_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__DG-60; g__JAGGTC01; s__JAGGTC01 sp021163945
+GCA_030262855_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__JAJSZL01; s__JAJSZL01 sp021160485
+GCA_905171705_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__Desulfofervidus; s__Desulfofervidus auxilii
+GCA_905171745_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__Desulfofervidus; s__Desulfofervidus auxilii
+GCA_905171755_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__Desulfofervidus; s__Desulfofervidus auxilii
+GCF_001577525_1	d__Bacteria; p__Desulfobacterota; c__Desulfofervidia; o__Desulfofervidales; f__Desulfofervidaceae; g__Desulfofervidus; s__Desulfofervidus auxilii
+Mohns_M83_B501	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__;f__;g__;s__
+bin_103	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+Mohns_M83_B216	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+Mohns_M83_B511	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M10_B69	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M11_B29	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M12_B87	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M14_B33	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M15_B33	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M19_B92	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+Barite_M2_B14	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M20_B192	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M28_B7	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M29_B151	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M34_B83	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+Barite_M4_B2	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M7_B33	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M8_B26	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__
+INS_M9_B129	d__Bacteria;p__Desulfobacterota;c__Desulfofervidia;o__Desulfofervidales;f__Desulfofervidaceae;g__Desulfofervidus;s__

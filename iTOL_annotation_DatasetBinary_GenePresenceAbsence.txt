@@ -1,0 +1,154 @@
+DATASET_BINARY
+#lines starting with a hash are comments and ignored during parsing
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line, which uses space).
+
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,Iron oxidation (cyc2)
+
+#display or hide the dataset label above the gradient strip
+SHOW_LABELS,1
+
+#text label size factor
+SIZE_FACTOR,2
+
+#text label shift in pixels (positive or negative)
+LABEL_SHIFT,5
+
+#dataset color (can be changed later)
+COLOR,#ff0000
+
+#Binary datasets can contain one or more values for each node. Each value will be represented by a symbol (defined in FIELD_SHAPES) with corresponding color and label (from FIELD_COLORS and FIELD_LABELS). Possible values (defined under DATA below) for each node are 1 (filled shapes), 0 (empty shapes) and -1 (completely ommited).
+
+#define colors for each individual field column (if not defined all symbols will use the main dataset color, defined in COLOR)
+#shapes for each field column; possible choices are
+#1: rectangle 
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+FIELD_LABELS,Iron oxidation (cyc2)
+
+FIELD_COLORS,#ff6a6a
+FIELD_SHAPES,2
+
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+
+#show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL,1
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN,0
+
+#symbol height factor; Default symbol height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+HEIGHT_FACTOR,1
+
+#increase/decrease the spacing between individual levels, when there is more than one binary level defined 
+SYMBOL_SPACING,10
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#Actual data follows after the "DATA" keyword
+DATA
+
+#Example dataset with 4 columns (circle, left triangle, right triangle and rectangle):
+#FIELD_SHAPES,2,4,5,1
+#FIELD_LABELS,f1,f2,f3,f4
+#FIELD_COLORS,#ff0000,#00ff00,#ffff00,#0000ff
+#DATA
+#node 9606 will have a filled circle, empty left triangle, nothing in the 3rd column and an empty rectangle
+#9606,1,0,-1,0
+
+GCA_903902465_1,1
+GEM_3300013126_74,1
+GCA_013141195_1,1
+GEM_3300017434_8,1
+GEM_3300020723_7,1
+GCA_003523045_1,1
+GEM_3300013131_78,1
+GEM_3300012003_13,1
+GEM_3300026271_9,1
+GEM_3300025495_12,1
+GEM_3300025495_12,1
+GEM_3300025495_12,1
+GEM_3300025447_9,1
+GEM_3300002009_3,1
+GCA_002405315_1,1
+GCA_002405315_1,1
+GCA_002405315_1,1
+GCA_002405315_1,1
+GCA_903914555_1,1
+GCA_903856785_1,1
+GEM_3300020729_6,1
+GCA_903852835_1,1
+GCA_903858965_1,1
+GCA_903858965_1,1
+GCA_903825125_1,1
+GCA_903928035_1,1
+GCA_903928035_1,1
+GCA_903904185_1,1
+GCA_002413725_1,1
+GEM_3300025436_4,1
+GCA_002403995_1,1
+GCA_002403995_1,1
+GCA_903866175_1,1
+GCA_903905155_1,1
+s_GS19_ROV14_R01_MAG_00004,1
+GEM_3300025562_6,1
+GEM_3300025481_14,1
+GEM_3300025481_14,1
+GCA_903882495_1,1
+GCA_903928705_1,1
+GCA_903842885_1,1
+GEM_3300002247_1,1
+GEM_3300025595_4,1
+GCA_013141315_1,1
+GCA_013141315_1,1
+GCA_903849365_1,1
+GCA_903861075_1,1
+GCA_903874445_1,1
+GCA_903888115_1,1
+GCA_903885165_1,1
+GCA_001802355_1,1
+GEM_3300012005_15,1
+GEM_3300013132_112,1
+GCA_903921565_1,1
+GCA_001801025_1,1
+GEM_3300025616_3,1
+GCA_001577345_1,1
+GCA_001577345_1,1
+GCA_001577345_1,1
+GEM_3300015191_12,1
+GCA_000145255_1,1
+GCA_017880945_1,1
+GCA_013043965_1,1
+GCA_903934275_1,1
+GCA_903904035_1,1
+GCA_903915035_1,1
+GCA_903895105_1,1
+GEM_3300020717_7,1
+GCA_001801085_1,1
+GCA_004298605_1,1
+GEM_3300011987_7,1
+GCA_903876685_1,1
+GCA_903868525_1,1
+GCA_003521785_1,1
+GCA_001801175_1,1
+GCA_001801175_1,1
+GCA_903873015_1,1
+GCA_903854355_1,1
+GCA_013044075_1,1
+GCA_018324385_1,1
+GCA_019449655_1,1
+GEM_3300021135_8,1
+GCA_003134595_1,1
+GCA_003134595_1,1
+GCA_903846285_1,1
+GCA_002381565_1,1
+GCA_019753125_1,1
+GCA_019753125_1,1
+GCA_002403995_1,1
+
+

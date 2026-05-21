@@ -1,0 +1,141 @@
+DATASET_GRADIENT
+#In gradient datasets, each ID is associated to a single numeric value which is converted to a colored box based on the gradient defined.
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throught this file.
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	Optimum Growth Temperature (Predicted)
+
+#dataset color (can be changed later)
+COLOR	#ff0000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#To order legend entries horizontally instead of vertically, set LEGEND_HORIZONTAL to 1
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+LEGEND_TITLE	Optimum Growth Temperature (Predicted)
+#LEGEND_POSITION_X 100
+#LEGEND_POSITION_Y 100
+LEGEND_HORIZONTAL	0
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#005AB5	#FFFFFF	#DC3220
+LEGEND_LABELS	20 °C	40 °C	60 °C
+#LEGEND_SHAPE_SCALES 1 1 0.5
+
+#width of the gradient strip
+#STRIP_WIDTH 25
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN 0
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the gradient strip
+BORDER_WIDTH	3
+
+#if set to 1, border will be drawn completely around each colored strip box
+COMPLETE_BORDER	1
+
+#border color; used when BORDER_WIDTH is above 0
+BORDER_COLOR	#FFFFFF
+
+#automatically create and display a legend based on the color gradient defined below
+#AUTO_LEGEND	1
+
+#define the gradient colors. Values in the dataset will be mapped onto the corresponding color gradient.
+COLOR_MIN	#005AB5
+COLOR_MAX	#DC3220
+
+#you can specify a gradient with three colors (e.g red to yellow to green) by setting 'USE_MID_COLOR' to 1, and specifying the midpoint color
+USE_MID_COLOR	1
+COLOR_MID	#FFFFFF
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL 1
+
+#display or hide the dataset label above the gradient strip
+SHOW_LABELS	1
+
+#text label size factor
+SIZE_FACTOR	2
+
+#text label shift in pixels (positive or negative)
+LABEL_SHIFT	5
+
+#text label rotation
+#LABEL_ROTATION 0
+
+#text label shift in pixels (positive or negative)
+#LABEL_SHIFT 0
+
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#ID1 value1
+#ID2 value2
+#9606 10000
+#LEAF1|LEAF2 11000
+
+GCA_001304365_1	50.69761339
+GCA_011039335_1	62.26688205
+GCA_021159505_1	52.31977591
+GCA_021160485_1	52.57646727
+GCA_021163945_1	60.01094173
+GCA_027038965_1	59.19071956
+GCA_027064585_1	62.61373149
+GCA_029933935_1	60.34938896
+GCA_029935635_1	53.20440334
+GCA_029938675_1	52.34507381
+GCA_030262725_1	60.8555527
+GCA_030262805_1	52.83525265
+GCA_030262835_1	60.34749456
+GCA_030262855_1	54.99592753
+GCA_905171705_1	53.02129057
+GCA_905171745_1	52.54627823
+GCA_905171755_1	52.54770887
+GCF_001577525_1	52.57494829
+Mohns_M83_B501	52.92028834
+bin_103	54.70943273
+Mohns_M83_B216	52.85108415
+Mohns_M83_B511	57.49302553
+INS_M10_B69	58.22054289
+INS_M11_B29	56.16943286
+INS_M12_B87	56.87319402
+INS_M14_B33	55.66462789
+	
+INS_M19_B92	56.16496953
+Barite_M2_B14	54.49884565
+INS_M20_B192	56.01747088
+	
+	
+INS_M34_B83	56.2682261
+Barite_M4_B2	52.30426306
+INS_M7_B33	55.8988366

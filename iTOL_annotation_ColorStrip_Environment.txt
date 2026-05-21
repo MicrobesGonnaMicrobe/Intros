@@ -1,0 +1,99 @@
+DATASET_COLORSTRIP
+#lines starting with a hash are comments and ignored during parsing
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line, which uses space).
+
+#SEPARATOR TAB
+SEPARATOR COMMA
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,Environment
+
+#display or hide the dataset label above the gradient strip
+SHOW_LABELS,1
+
+#text label size factor
+SIZE_FACTOR,2
+
+#text label shift in pixels (positive or negative)
+LABEL_SHIFT,5
+
+#dataset color (can be changed later)
+COLOR,#ff0000
+
+#optional settings
+
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+COLOR_BRANCHES,1
+#maximum width
+STRIP_WIDTH,25
+FIELD_LABELS,ZOTUs
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN,0
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the gradient strip
+BORDER_WIDTH,3
+
+#if set to 1, border will be drawn completely around each colored strip box
+COMPLETE_BORDER,1
+
+#border color; used when BORDER_WIDTH is above 0
+BORDER_COLOR,#FFFFFF
+
+#show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#legend
+LEGEND_TITLE,Environment
+LEGEND_SHAPES,1,1
+LEGEND_COLORS,#e69138,#8d6ce2
+LEGEND_LABELS,Marine hydrothermal,Estuary
+LEGEND_SHAPE_SCALES,1,1
+LEGEND_SHAPE_INVERT,0,0
+
+#In colored strip charts, each ID is associated to a color. Color can be specified in hexadecimal, RGB or RGBA notation
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#Actual data follows after the "DATA" keyword
+DATA
+#ID1 value1
+#ID2 value2
+
+GCA_001304365_1,#8d6ce2,Estuary
+GCA_011039335_1,#e69138,Marine hydrothermal
+GCA_021159505_1,#e69138,Marine hydrothermal
+GCA_021160485_1,#e69138,Marine hydrothermal
+GCA_021163945_1,#e69138,Marine hydrothermal
+GCA_027038965_1,#e69138,Marine hydrothermal
+GCA_027064585_1,#e69138,Marine hydrothermal
+GCA_029933935_1,#e69138,Marine hydrothermal
+GCA_029935635_1,#e69138,Marine hydrothermal
+GCA_029938675_1,#e69138,Marine hydrothermal
+GCA_030262725_1,#e69138,Marine hydrothermal
+GCA_030262805_1,#e69138,Marine hydrothermal
+GCA_030262835_1,#e69138,Marine hydrothermal
+GCA_030262855_1,#e69138,Marine hydrothermal
+GCA_905171705_1,#e69138,Marine hydrothermal
+GCA_905171745_1,#e69138,Marine hydrothermal
+GCA_905171755_1,#e69138,Marine hydrothermal
+GCF_001577525_1,#e69138,Marine hydrothermal
+Mohns_M83_B501,#e69138,Marine hydrothermal
+bin_103,#e69138,Marine hydrothermal
+Mohns_M83_B216,#e69138,Marine hydrothermal
+Mohns_M83_B511,#e69138,Marine hydrothermal
+INS_M10_B69,#e69138,Marine hydrothermal
+INS_M11_B29,#e69138,Marine hydrothermal
+INS_M12_B87,#e69138,Marine hydrothermal
+INS_M14_B33,#e69138,Marine hydrothermal
+INS_M15_B33,#e69138,Marine hydrothermal
+INS_M19_B92,#e69138,Marine hydrothermal
+Barite_M2_B14,#e69138,Marine hydrothermal
+INS_M20_B192,#e69138,Marine hydrothermal
+INS_M28_B7,#e69138,Marine hydrothermal
+INS_M29_B151,#e69138,Marine hydrothermal
+INS_M34_B83,#e69138,Marine hydrothermal
+Barite_M4_B2,#e69138,Marine hydrothermal
+INS_M7_B33,#e69138,Marine hydrothermal
+INS_M8_B26,#e69138,Marine hydrothermal
+INS_M9_B129,#e69138,Marine hydrothermal
+

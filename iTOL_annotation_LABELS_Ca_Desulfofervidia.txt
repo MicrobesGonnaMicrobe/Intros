@@ -1,0 +1,56 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+
+#SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+SEPARATOR TAB
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+GCA_001304365_1	USA: White Oak Rive Estuary; North Carolina (GCA_001304365.1)
+GCA_011039335_1	Mexico: Guaymas Basin; Gulf of California (GCA_011039335.1)
+GCA_021159505_1	Pacific Ocean: Mexico; Pescadero Basin (GCA_021159505.1)
+GCA_021160485_1	Pacific Ocean: Mexico; Pescadero Basin (GCA_021160485.1)
+GCA_021163945_1	Pacific Ocean: Mexico; Pescadero Basin (GCA_021163945.1)
+GCA_027038965_1	Pacific Ocean: Lau Basin (GCA_027038965.1)
+GCA_027064585_1	Pacific Ocean: Gulf of California; Guaymas Basin (GCA_027064585.1)
+GCA_029933935_1	Mexico: Gulf of California; Guaymas Basin (GCA_029933935.1)
+GCA_029935635_1	Mexico: Gulf of California; Guaymas Basin (GCA_029935635.1)
+GCA_029938675_1	Mexico: Gulf of California; Guaymas Basin (GCA_029938675.1)
+GCA_030262725_1	Mexico: Gulf of California; Pescadero Basin (GCA_030262725.1)
+GCA_030262805_1	Mexico: Gulf of California; Pescadero Basin (GCA_030262805.1)
+GCA_030262835_1	Mexico: Gulf of California; Pescadero Basin (GCA_030262835.1)
+GCA_030262855_1	Mexico: Gulf of California; Pescadero Basin (GCA_030262855.1)
+GCA_905171705_1	Mexico: Gulf of California; Guaymas Basin (GCA_905171705.1)
+GCA_905171745_1	Mexico: Gulf of California; Guaymas Basin (GCA_905171745.1)
+GCA_905171755_1	Mexico: Gulf of California; Guaymas Basin (GCA_905171755.1)
+GCF_001577525_1	Mexico: Guaymas Basin; Gulf of California (GCF_001577525.1)
+Mohns_M83_B501	AMOR:Mohns Treasure;chimney (Mohns_M83_B501)
+bin_103	AMOR:Lokis Castle Barite Field;enrichment_FV_171 (bin_103)
+Mohns_M83_B216	AMOR:Mohns Treasure;chimney (Mohns_M83_B216)
+Mohns_M83_B511	AMOR:Mohns Treasure;chimney (Mohns_M83_B511)
+INS_M10_B69	AMOR: LC (INS_M10_B69)
+INS_M11_B29	AMOR: LC (INS_M11_B29)
+INS_M12_B87	AMOR: LC (INS_M12_B87)
+INS_M14_B33	AMOR: LC (INS_M14_B33)
+INS_M15_B33	AMOR: LC (INS_M15_B33)
+INS_M19_B92	AMOR: LC (INS_M19_B92)
+Barite_M2_B14	AMOR: LC (Barite_M2_B14)
+INS_M20_B192	AMOR: LC (INS_M20_B192)
+INS_M28_B7	AMOR: LC (INS_M28_B7)
+INS_M29_B151	AMOR: LC (INS_M29_B151)
+INS_M34_B83	AMOR: LC (INS_M34_B83)
+Barite_M4_B2	AMOR: LC (Barite_M4_B2)
+INS_M7_B33	AMOR: LC (INS_M7_B33)
+INS_M8_B26	AMOR: LC (INS_M8_B26)
+INS_M9_B129	AMOR: LC (INS_M9_B129)
