@@ -225,6 +225,7 @@ iqtree -s Zetaproteobacteria_concat_mafft_trimal.fa -m LG+F+R7 -b 1000 -nt 4 -pr
 
 #### Tree visualisation and annotation
 Visualise the tree by importing to iTOL and use templates for tree annotation: https://itol.embl.de/help.cgi#annot
+You will find the template files starting with "iTOL_annotation" in this GitHub repository.
 
 ## Genome similarity
 
