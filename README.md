@@ -269,3 +269,8 @@ Background on stacked barcharts: https://www.youtube.com/watch?v=NVym44SdcaE and
 Background on heatmaps: https://www.youtube.com/watch?v=-4sGamyqGAQ
 
 - Metabolism presence/absence
+
+## Useful info for Master students at BIO, UiB
+- Useful information from the department: https://www.uib.no/en/bio/180309/masters-student-department-biosciences-useful-information
+- GUIDELINES FOR THE ASSESSEMENT OF MASTER’S THESES - https://www.uib.no/sites/w3.uib.no/files/attachments/examiners_file_masters_dept_of_biol_sciences_2025.pdf
+
