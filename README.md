@@ -264,7 +264,7 @@ Here are some examples of code for plots:
 
 Background on stacked barcharts: https://www.youtube.com/watch?v=NVym44SdcaE and https://www.youtube.com/watch?v=w4X3o6MQjVA
 
-- Heatmap for ANI / AAI
+- Heatmap for ANI / AAI (Heatmap_plot_for_AAI.r)
 
 Background on heatmaps: https://www.youtube.com/watch?v=-4sGamyqGAQ
 
