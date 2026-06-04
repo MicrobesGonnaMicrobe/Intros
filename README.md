@@ -136,47 +136,49 @@ anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt
 anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt --hmm-source Bacteria_71 --list-available-gene-names
 ```
 
-Decide which set of markers to use
-- only select the single copy marker genes (check with a matrix if they are in duplicates)
-- select the ones that are mostly present in the genomes
-- more good quality marker genes, the better
+1. Decide which set of markers to use
+- use an already used and established set of markers (literature, previous work), OR
+- select the markers yourself, following the recipe below
 
 Not always needed, only when deciding which markers to use: To check presence of marker genes in all genomes (matrix):
 ```bash
 anvi-script-gen-hmm-hits-matrix-across-genomes --external-genomes external_selected_genomes.txt --hmm-source Bacteria_71 -o Zeta_Bacteria71_markers_matrix.txt
 ```
+Follow these guidelines when selecting the markers:
+- only select the single copy marker genes (check with a matrix if they are in duplicates)
+- select the ones that are mostly present in the genomes
+- more good quality marker genes, the better
 
-Choose a subset of those genes and get them in one fasta file (without alignment and concatenation)
+2. Get the selected markers in one fasta file (without alignment and concatenation), as a subset of for example Bacteria_71 marker source
 ```bash
 anvi-get-sequences-for-hmm-hits --external-genomes external_selected_genomes.txt -o Zetaproteobacteria_selectedmarkers_Bacteria71.fa --hmm-source Bacteria_71 --gene-names Zetaproteobacteria_selectedmarkers_Bacteria71.txt --return-best-hit --get-aa-sequences
 ```
 For --gene-names, you can either provide a list of selected markers (for example --gene-names Ribosomal_L1,Ribosomal_L2,Ribosomal_L3) or a text file including names of selected markers (--gene-names Zetaproteobacteria_selectedmarkers_Bacteria71.txt).
 
+3. Split multifasta markers from anvio into single marker files
+The file with all markers is divided based on the header before the "___" symbol into one file per marker:
+
+```bash
+seqkit split -i --id-regexp "^(\\S+)\___\s?" Zeta_ribosomal_markers20_proteins.fa
+```
 
 Not always needed, only when deciding which markers to use: Make separate trees for all separate proteins (to check if monophyletic/good marker genes)
 ```bash
 anvi-gen-phylogenomic-tree -f Zetas_ribosomal_L15.fa -o Zetas_ribosomal_L15_tree.txt
 ```
 
-Split multifasta markers from anvio into single marker files
-- The file with all markers is divided based on the header before the "___" symbol into one file per marker:
-
-```bash
-seqkit split -i --id-regexp "^(\\S+)\___\s?" Zeta_ribosomal_markers20_proteins.fa
-```
-
 ### Align individual sequences with mafft
-* `MAFFT L-INS-i v7.397`
+* `MAFFT L-INS-i`
 ```bash
 mkdir individual_mafft
 for i in *.fa; do mafft-linsi $i | awk 'BEGIN{FS=":|[|]"}{if(/^>/){print ">"$2}else{print $0}}' > individual_mafft/${i%.fa}_mafft.fa; done
 ```
 
 - Inspect the alignment manually
-* `AliView v1.26`
+* `AliView`
 
 ### Trimming
-* `trimAl v1.4.rev15`
+* `trimAl`
 
 Before using trimal, remove spaces in >fasta headers, so that trimal does not remove the taxonomic classification reported in the header
 ```bash
@@ -191,20 +193,27 @@ for i in *mafft.fa; do trimal -in $i -gt 0.5 -cons 60 |cut -f 1 -d ' ' > trimal/
 ```
 
 ### Concatenate
-* `catfasta2.phyml v07.04.20`: (https://github.com/nylander/catfasta2phyml)
+You are now concatenating multiple files - trimmed alignments of the same marker gene, belonging to several organisms 
+* `catfasta2.phyml`: (https://github.com/nylander/catfasta2phyml)
 ```bash
 catfasta2phyml -v -c -f *mafft_trimal.fa > Zetaproteobacteria_concat_mafft_trimal.fa
 ```
 
 ### Build tree
-* `IQ-TREE v2.0.3`: https://github.com/Cibiv/IQ-TREE
+* `IQ-TREE`: https://github.com/Cibiv/IQ-TREE
 
-Choose the best substitution model (Best-fit model)
-- "By default, substitution models are not included in these tests. If we want to test them we have to add them. Generally, it is recommended to include them in the test and the following selection would be quite comprehensive for testing models."
+1. To do a fast check of the tree (also when checking different sets of marker genes), you can run this:
+```bash
+anvi-gen-phylogenomic-tree -f Zetaproteobacteria_concat_mafft_trimal.fa -o Zetaproteobacteria_concat_mafft_trimal_FastTree.txt
+```
+
+2. Choose the best substitution model (Best-fit model)
 
 ```bash
 iqtree -s Zetaproteobacteria_concat_mafft_trimal.fa -m MFP -madd LG+C10,LG+C20,LG+C30,LG+C40,LG+C50,LG+C60,LG+C10+R+F,LG+C20+R+F,LG+C30+R+F,LG+C40+R+F,LG+C50+R+F,LG+C60+R+F -v -nt 4
 ```
+- "By default, substitution models are not included in these tests. If we want to test them we have to add them. Generally, it is recommended to include them in the test and the following selection would be quite comprehensive for testing models."
+
 
 #### Bootstrapping
 Various methods allow to assess the confidence in branching patterns or branch supports.
@@ -274,4 +283,5 @@ Background on heatmaps: https://www.youtube.com/watch?v=-4sGamyqGAQ
 - Useful information from the department: https://www.uib.no/en/bio/180309/masters-student-department-biosciences-useful-information
 - Guidelines for the assessment of master’s theses: https://www.uib.no/sites/w3.uib.no/files/attachments/examiners_file_masters_dept_of_biol_sciences_2025.pdf
 - In case you need to borrow a UiB computer to work in WSL, you might need to apply for admin access to install different software:  https://hjelpekort.app.uib.no/en/KI-2120.html
+    - You need to then download the "Make Me Admin" program that activates your admin access for 1 hour each time you ask for it
 
