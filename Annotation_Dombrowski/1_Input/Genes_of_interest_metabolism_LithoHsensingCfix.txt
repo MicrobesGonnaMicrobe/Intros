@@ -1,0 +1,84 @@
+pathway0	pathway	GeneID	Gene	Order	Gene_long	Comment	pathway_2	Order2
+Electron donors	H2 	[NiFe]_Group_1a	hys (NiFe 1a)	A	H2-uptake (unidirectional)	Hydrogenotrophic respiration using sulfate, metal, or organohalide compounds as terminal electron acceptors. Enzyme transfers H2-liberated electrons through cytochrome c3 to terminal reductase.	H2 	1
+Electron donors	H2 	[NiFe]_Group_1b	hyn (NiFe 1b)	A	H2-uptake (unidirectional)	Hydrogenotrophic respiration using sulfate, fumarate, nitrate, metals, and azo compounds as terminal electron acceptors. Enzyme transfers H2-liberated electrons through cytochromes to terminal reductase.	H2 	2
+Electron donors	H2 	[NiFe]_Group_1c	hyb (NiFe 1c)	A	H2-uptake (unidirectional)	Hydrogenotrophic respiration using fumarate, sulfate, or metals as terminal electron acceptors. Route of electron transfer unresolved. Can also fermentatively evolve H2 under hypoxia.	H2 	3
+Electron donors	H2 	[NiFe]_Group_1d	hya (NiFe 1d)	A	H2-uptake (unidirectional)	Hydrogenotrophic respiration using O2 or fumarate as terminal electron acceptors. Enzyme transfers H2-liberated electrons through cyt b and quinone to terminal reductase.	H2 	4
+Electron donors	S2O3	K17223	soxX	B	sulfur-oxidizing protein SoxX		S2O3	5
+Electron donors	S2O3	K17227	soxZ	B	sulfur-oxidizing protein SoxZ		S2O3	6
+Electron donors	S2O3	K17222	soxA	B	sulfur-oxidizing protein SoxA		S2O3	7
+Electron donors	S2O3	K17224	soxB	B	sulfur-oxidizing protein SoxB		S2O3	8
+Electron donors	S2O3	TIGR04486	soxB	B	soxB, thiosulfohydrolase		S2O3	9
+Electron donors	S2O3	K17225	soxC	B	sulfane dehydrogenase subunit SoxC		S2O3	10
+Electron donors	S2O3	TIGR04555	soxC	B	soxC,  sulfite dehydrogenase		S2O3	11
+Electron donors	S2O3	K17226	soxY	B	sulfur-oxidizing protein SoxY		S2O3	12
+Electron donors	S2O3	TIGR04488	soxY	B	soxY,  thiosulfate oxidation carrier protein		S2O3	13
+Electron donors	S2-/SO3 2-	K11180	dsrA	C	sulfite reductase alpha subunit [EC:1.8.99.3 1.8.99.5]	Dissimilatory	S2-/SO3 2-	14
+Electron donors	S2-/SO3 2-	TIGR02064	dsrA	C	dsrA,  sulfite reductase, dissimilatory-type	Dissimilatory	S2-/SO3 2-	15
+Electron donors	S2-/SO3 2-	K11181	dsrB	C	sulfite reductase beta subunit [EC:1.8.99.3 1.8.99.5]	Dissimilatory	S2-/SO3 2-	16
+Electron donors	S2-/SO3 2-	TIGR02066	dsrB	C	dsrB,  sulfite reductase, dissimilatory-type	Dissimilatory	S2-/SO3 2-	17
+Electron donors	Fe(II) 	K20150	cyc2	D	iron:rusticyanin reductase [EC:1.16.9.1]		Fe(II) 	18
+Electron donors	Manganese	K22350	mcoA	E	manganese oxidase [EC:1.16.3.3]	Potential manganese oxidation	Mn	19
+Electron donors	Manganese	K22349	mnxG	E	manganese oxidase [EC:1.16.3.3]	Potential manganese oxidation	Mn	20
+Electron donors	Manganese	K06324	cotA	E	spore coat protein A, manganese oxidase [EC:1.16.3.3]	Potential manganese oxidation	Mn	21
+Electron donors	Manganese	K22348	moxA	E	manganese oxidase [EC:1.16.3.3]	Potential manganese oxidation	Mn	22
+Electron donors	CH4	arCOG04857	mcrA	F	Methyl-coenzyme M reductase I subunit alpha		CH4	23
+Electron donors	CH4	TIGR03256	mcrA	F	Methyl-coenzyme M reductase I subunit alpha		CH4	24
+Electron donors	CH4	arCOG04860	mcrB	F	Methyl-coenzyme M reductase I subunit beta		CH4	25
+Electron donors	CH4	TIGR03257	mcrB	F	Methyl-coenzyme M reductase I subunit beta		CH4	26
+Electron donors	CH4	arCOG04858	mcrG	F	Methyl-coenzyme M reductase I subunit gamma		CH4	27
+Electron donors	CH4	TIGR03259	mcrG	F	Methyl-coenzyme M reductase I subunit gamma		CH4	28
+Electron donors	CH4	TIGR03080	pmoA	F	pmoA,  methane monooxygenase/ammonia monooxygenase		CH4	29
+Electron donors	CH4	TIGR03079	pmoB	F	pmoB,  methane monooxygenase/ammonia monooxygenase		CH4	30
+Electron donors	CH4	TIGR03078	pmoC	F	pmoC,  methane monooxygenase/ammonia monooxygenase		CH4	31
+Electron donors	NO2-	K00370	nxrA	G	narG, narZ, nxrA; nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.4]	Dissimilatory	NO2-	32
+Electron donors	NO2-	K00371	nxrB	G	narH, narY, nxrB; nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.4]	Dissimilatory	NO2-	33
+Electron donors	NH4 +	K20932	hzsA	H	Hydrazine synthase		NH4 +	34
+Electron donors	NH4 +	K20933	hzsA	H	Hydrazine synthase		NH4 +	35
+Electron donors	NH4 +	K20934	hzsA	H	hydrazine synthase subunit [EC:1.7.2.7]		NH4 +	36
+Electron donors	CO	K03520	coxL	K	carbon-monoxide dehydrogenase large subunit [EC:1.2.7.4]		CO	37
+Electron donors	CO	K03519	coxM	K	carbon-monoxide dehydrogenase medium subunit [EC:1.2.7.4]		CO	38
+Electron donors	CO	K03518	coxS	K	aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.7.4]		CO	39
+Electron acceptors	O2	K00425	cydA	L	cytochrome d ubiquinol oxidase subunit I [EC:1.10.3.14]	high oxygen sensitivity = microaerophilic	O2	40
+Electron acceptors	O2	PF01654	cydA	L	CydA, Cytochrome bd terminal oxidase	high oxygen sensitivity = microaerophilic	O2	41
+Electron acceptors	O2	K00426	cydB	L	cytochrome d ubiquinol oxidase subunit II [EC:1.10.3.14]	high oxygen sensitivity = microaerophilic	O2	42
+Electron acceptors	O2	TIGR00203	cydB	L	CydB, Cytochrome bd terminal oxidase	high oxygen sensitivity = microaerophilic	O2	43
+Electron acceptors	O2	TIGR01433	cyoA	L	CyoA, ubiquinol oxidase		O2	44
+Electron acceptors	O2	TIGR02847	cyoD	L	CyoD, ubiquinol oxidase		O2	45
+Electron acceptors	O2	TIGR01473	cyoE	L	CyoE, ubiquinol oxidase		O2	46
+Electron acceptors	O2	K02297	cyoA	L	cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3]		O2	47
+Electron acceptors	O2	K02300	cyoD	L	cytochrome o ubiquinol oxidase subunit IV		O2	48
+Electron acceptors	O2	K02274	coxA	L	cytochrome c oxidase subunit I [EC:1.9.3.1]	aa3 = low oxygen sensitivity, aerobic environment	O2	49
+Electron acceptors	O2	TIGR02891	coxA	L	CoxA,  cytochrome c oxidase	aa3 = low oxygen sensitivity, aerobic environment	O2	50
+Electron acceptors	O2	K02275	coxB	L	cytochrome c oxidase subunit II [EC:1.9.3.1]	aa3 = low oxygen sensitivity, aerobic environment	O2	51
+Electron acceptors	O2	TIGR02866	coxB	L	CoxB,  cytochrome c oxidase	aa3 = low oxygen sensitivity, aerobic environment	O2	52
+Electron acceptors	O2	K00404	ccoN	L	cytochrome c oxidase cbb3-type subunit I [EC:1.9.3.1]	high oxygen sensitivity = microaerophilic	O2	53
+Electron acceptors	O2	TIGR00780	ccoN	L	ccoN, cytochrome c oxidase, cbb3-type	high oxygen sensitivity = microaerophilic	O2	54
+Electron acceptors	O2	K00405	ccoO	L	cytochrome c oxidase cbb3-type subunit II	high oxygen sensitivity = microaerophilic	O2	55
+Electron acceptors	O2	TIGR00781	ccoO	L	ccoO, cytochrome c oxidase, cbb3-type	high oxygen sensitivity = microaerophilic	O2	56
+Electron acceptors	NO3 -	K00370	narG	M	narG, narZ, nxrA; nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.4]	Dissimilatory	NO3 -	57
+Electron acceptors	NO3 -	TIGR01580	narG	M	narG,  periplasmic nitrate reductase	Dissimilatory	NO3 -	58
+Electron acceptors	NO3 -	K00371	narH	M	narH, narY, nxrB; nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.4]	Dissimilatory	NO3 -	59
+Electron acceptors	NO3 -	TIGR01660	narH	M	narH,  periplasmic nitrate reductase	Dissimilatory	NO3 -	60
+Electron acceptors	NO3 -	K02567	napA	M	periplasmic nitrate reductase NapA [EC:1.7.99.4]	Dissimilatory	NO3 -	61
+Electron acceptors	NO3 -	K02568	napB	M	napB; nitrate reductase (cytochrome), electron transfer subunit		NO3 -	62
+Electron acceptors	S2O3	K08352	phsA	O	thiosulfate reductase / polysulfide reductase chain A		S2O3	63
+Sensing	H2 	[NiFe]_Group_2b	[NiFe]_hydrogenase_2b	P	Hydrogen sensing		H2 	64
+Carbon fixation	CBB	K01601	rbcL	R	ribulose-bisphosphate carboxylase large chain [EC:4.1.1.39]		CBB	65
+Carbon fixation	CBB	K01602	rbcS	R	ribulose-bisphosphate carboxylase small chain [EC:4.1.1.39]		CBB	66
+Carbon fixation	CBB	K00955	K00955	R	phosphoribulokinase 		CBB	67
+Carbon fixation	rTCA	K15230	aclA	R	ATP-citrate lyase alpha-subunit [EC:2.3.3.8]		rTCA	68
+Carbon fixation	rTCA	K15231	aclB	R	ATP-citrate lyase beta-subunit [EC:2.3.3.8]		rTCA	69
+Carbon fixation	rTCA	K15232	K15232	R	citryl-CoA synthetase		rTCA	70
+Carbon fixation	rTCA	K15233	K15233	R	citryl-CoA synthetase		rTCA	71
+Carbon fixation	rTCA	K15234	K15234	R	citryl-CoA lyase/citrate synthase		rTCA	72
+Carbon fixation	rTCA	K01644	K01644	R	citryl-Coa lyase/citrate synthase		rTCA	73
+Carbon fixation	WL	TIGR01702	codh	R	codh (catalytic),  CO dehydrogenase/acetyl-CoA synthase		WL	74
+Carbon fixation	WL	K00198	K00198	R	CO dehydrogenase		WL	75
+Carbon fixation	WL	K14138	K14138	R	acetogens		WL	76
+Carbon fixation	WL	K00192	K00192	R	methanogens		WL	77
+Carbon fixation	3HP	K14468	mcr	R	3 Hydroxypropionate cycle		3HP	78
+Carbon fixation	3HP	K14469	K14469	R	3 Hydroxypropionate cycle		3HP	79
+Carbon fixation	3HP/4HB	K14466	K14466	R	3HP/4HB		3HP/4HB	80
+Carbon fixation	3HP/4HB	K18861	K18861	R	3HP/4HB		3HP/4HB	81
+Carbon fixation	DC/4HB	K18861	K18861	R	DC/4-HB		DC/4HB	82
+Carbon fixation	DC/4HB	K14467	4hbl	R	DC/4-HB		DC/4HB	83

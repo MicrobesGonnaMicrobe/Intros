@@ -1,0 +1,42 @@
+pathway0	pathway	GeneID	Gene	Order	Gene_long	Comment	pathway_2	Order2
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00399	mcrA	A	methyl-CoM reductase (Mcr) alpha subunit	EC:2.8.4.1	AOM & Other (Vulcano et al, 2022)	1
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00400	K00400	A	methyl coenzyme M reductase system, component A2		AOM & Other (Vulcano et al, 2022)	2
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00401	mcrB	A	methyl-coenzyme M reductase beta subunit	EC:2.8.4.1	AOM & Other (Vulcano et al, 2022)	3
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00402	mcrG	A	methyl-coenzyme M reductase gamma subunit	EC:2.8.4.1	AOM & Other (Vulcano et al, 2022)	4
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K03421	mcrC	A	methyl-coenzyme M reductase subunit C		AOM & Other (Vulcano et al, 2022)	5
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K03422	mcrD	A	methyl-coenzyme M reductase subunit D		AOM & Other (Vulcano et al, 2022)	6
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00577	mtrA	A	Methyl-H4M(S)PT:HS-CoM methyltransferase(Mtr) subunitA	EC:2.1.1.86	AOM & Other (Vulcano et al, 2022)	7
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00578	mtrB	A	tetrahydromethanopterin S-methyltransferase subunit B	EC:2.1.1.86	AOM & Other (Vulcano et al, 2022)	8
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00579	mtrC	A	tetrahydromethanopterin S-methyltransferase subunit C	EC:2.1.1.86	AOM & Other (Vulcano et al, 2022)	9
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00580	mtrD	A	tetrahydromethanopterin S-methyltransferase subunit D	EC:2.1.1.86	AOM & Other (Vulcano et al, 2022)	10
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00581	mtrE	A	tetrahydromethanopterin S-methyltransferase subunit E	EC:2.1.1.86	AOM & Other (Vulcano et al, 2022)	11
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00582	mtrF	A	tetrahydromethanopterin S-methyltransferase subunit F	EC:2.1.1.86	AOM & Other (Vulcano et al, 2022)	12
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00583	mtrG	A	tetrahydromethanopterin S-methyltransferase subunit G	EC:2.1.1.86	AOM & Other (Vulcano et al, 2022)	13
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00584	mtrH	A	tetrahydromethanopterin S-methyltransferase subunit H	EC:2.1.1.86	AOM & Other (Vulcano et al, 2022)	14
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00320	mer	A	Methylene-H4M(S)PT reductase(Mer)	EC:1.5.98.2 (1.5.99.11)	AOM & Other (Vulcano et al, 2022)	15
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K13812	fae-hps	A	bifunctional enzyme fae/hps	EC:4.2.1.147 4.1.2.43	AOM & Other (Vulcano et al, 2022)	16
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00297	metF, MTHFR	A	methylenetetrahydrofolate reductase (NADPH)	EC:1.5.1.20	AOM & Other (Vulcano et al, 2022)	17
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00319	mtd	A	Methylene-H4M(S)PT dehydrogenase(Hmd)	EC:1.5.98.1 (1.5.99.9)	AOM & Other (Vulcano et al, 2022)	18
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K01499	mch	A	Methenye-H4M(S)PT cyclohydrolase(Mch)	EC:3.5.4.27	AOM & Other (Vulcano et al, 2022)	19
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00672	ftr	A	Formyl-MFR:H4M(S)PT formyltransferase(Ftr)	EC:2.3.1.101	AOM & Other (Vulcano et al, 2022)	20
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00200	fwdA, fmdA	A	Formyl-MFR dehydrogenase(Fmd) subunit A	EC:1.2.99.5 (EC:1.2.7.12)	AOM & Other (Vulcano et al, 2022)	21
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00201	fwdB, fmdB	A	Formyl-MFR dehydrogenase(Fmd) subunit B	EC:1.2.99.5 (EC:1.2.7.12)	AOM & Other (Vulcano et al, 2022)	22
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00202	fwdC, fmdC	A	Formyl-MFR dehydrogenase(Fmd) subunit C	EC:1.2.99.5 (EC:1.2.7.12)	AOM & Other (Vulcano et al, 2022)	23
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00203	fwdD, fmdD	A	Formyl-MFR dehydrogenase(Fmd) subunit D	EC:1.2.99.5 (EC:1.2.7.12)	AOM & Other (Vulcano et al, 2022)	24
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K11261	fwdE, fmdE	A	formylmethanofuran dehydrogenase subunit E	EC:1.2.99.5 (EC:1.2.7.12)	AOM & Other (Vulcano et al, 2022)	25
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00205	fwdF, fmdF	A	4Fe-4S ferredoxin		AOM & Other (Vulcano et al, 2022)	26
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K11260	fwdG	A	4Fe-4S ferredoxin		AOM & Other (Vulcano et al, 2022)	27
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K00204	fwdH	A	4Fe-4S ferredoxin		AOM & Other (Vulcano et al, 2022)	28
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K14080	mtaA	A	[methyl-Co(III) methanol-specific corrinoid protein]:coenzyme M methyltransferase	EC:2.1.1.246	AOM & Other (Vulcano et al, 2022)	29
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K04480	mtaB	A	methanol    5-hydroxybenzimidazolylcobamide Co-methyltransferase	EC:2.1.1.90	AOM & Other (Vulcano et al, 2022)	30
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K14081	mtaC	A	methanol corrinoid protein		AOM & Other (Vulcano et al, 2022)	31
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K14080	mtaA	A	mtaA; [methyl-Co(III) methanol-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.246]	methanogenesis from methanol	AOM & Other (Vulcano et al, 2022)	32
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K04480	mtaB	A	mtaB; methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase [EC:2.1.1.90]	methanogenesis from methanol	AOM & Other (Vulcano et al, 2022)	33
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K14081	mtaC	A	mtaC; methanol corrinoid protein	methanogenesis from methanol	AOM & Other (Vulcano et al, 2022)	34
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K14082	mtbA	A	mtbA; [methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.247]	methanogenesis from methylated amines	AOM & Other (Vulcano et al, 2022)	35
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K14083	mttB	A	mttB; trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250]	methanogenesis from methylated amines	AOM & Other (Vulcano et al, 2022)	36
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K14084	mttC	A	mttC; trimethylamine corrinoid protein	methanogenesis from methylated amines	AOM & Other (Vulcano et al, 2022)	37
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K16178	mtbB	A	mtbB; dimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.249]	methanogenesis from methylated amines	AOM & Other (Vulcano et al, 2022)	38
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K16179	mtbC	A	mtbC; dimethylamine corrinoid protein	methanogenesis from methylated amines	AOM & Other (Vulcano et al, 2022)	39
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K16954	mtsA	A	mtsA; methylthiol:coenzyme M methyltransferase [EC:2.1.1.251]	Methanogenesis from methylated thiols	AOM & Other (Vulcano et al, 2022)	40
+AOM & Other (Vulcano et al, 2022)	AOM & Other (Vulcano et al, 2022)	K16955	mtsB	A	mtsB; methylated-thiol--corrinoid protein	Methanogenesis from methylated thiols	AOM & Other (Vulcano et al, 2022)	41

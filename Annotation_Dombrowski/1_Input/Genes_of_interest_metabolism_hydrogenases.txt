@@ -1,0 +1,38 @@
+pathway0	pathway	GeneID	Gene	Order	Gene_long	Comment	pathway_2	Order2
+Hydrogenases	Hydrogenases	[Fe]	[Fe]	A			Hydrogenases	1
+Hydrogenases	Hydrogenases	[FeFe]_Group_A1	[FeFe]_Group_A1	A			Hydrogenases	2
+Hydrogenases	Hydrogenases	[FeFe]_Group_A2	[FeFe]_Group_A2	A			Hydrogenases	3
+Hydrogenases	Hydrogenases	[FeFe]_Group_A3	[FeFe]_Group_A3	A			Hydrogenases	4
+Hydrogenases	Hydrogenases	[FeFe]_Group_A4	[FeFe]_Group_A4	A			Hydrogenases	5
+Hydrogenases	Hydrogenases	[FeFe]_Group_C1	[FeFe]_Group_C1	A			Hydrogenases	6
+Hydrogenases	Hydrogenases	[FeFe]_Group_C2	[FeFe]_Group_C2	A			Hydrogenases	7
+Hydrogenases	Hydrogenases	[FeFe]_Group_C3	[FeFe]_Group_C3	A			Hydrogenases	8
+Hydrogenases	Hydrogenases	[NiFe]_Group_1a	[NiFe]_Group_1a	A	hys: H2-uptake (unidirectional)	Hydrogenotrophic respiration using sulfate, metal, or organohalide compounds as terminal electron acceptors. Enzyme transfers H2-liberated electrons through cytochrome c3 to terminal reductase.	Hydrogenases	9
+Hydrogenases	Hydrogenases	[NiFe]_Group_1b	[NiFe]_Group_1b	A	hyn: H2-uptake (unidirectional)	Hydrogenotrophic respiration using sulfate, fumarate, nitrate, metals, and azo compounds as terminal electron acceptors. Enzyme transfers H2-liberated electrons through cytochromes to terminal reductase.	Hydrogenases	10
+Hydrogenases	Hydrogenases	[NiFe]_Group_1c	[NiFe]_Group_1c	A	hyb: H2-uptake (unidirectional)	Hydrogenotrophic respiration using fumarate, sulfate, or metals as terminal electron acceptors. Route of electron transfer unresolved. Can also fermentatively evolve H2 under hypoxia.	Hydrogenases	11
+Hydrogenases	Hydrogenases	[NiFe]_Group_1d	[NiFe]_Group_1d	A	hya: H2-uptake (unidirectional)	Hydrogenotrophic respiration using O2 or fumarate as terminal electron acceptors. Enzyme transfers H2-liberated electrons through cyt b and quinone to terminal reductase.	Hydrogenases	12
+Hydrogenases	Hydrogenases	[NiFe]_Group_1e	[NiFe]_Group_1e	A			Hydrogenases	13
+Hydrogenases	Hydrogenases	[NiFe]_Group_1f	[NiFe]_Group_1f	A			Hydrogenases	14
+Hydrogenases	Hydrogenases	[NiFe]_Group_1g	[NiFe]_Group_1g	A			Hydrogenases	15
+Hydrogenases	Hydrogenases	[NiFe]_Group_1h	[NiFe]_Group_1h	A			Hydrogenases	16
+Hydrogenases	Hydrogenases	[NiFe]_Group_1i	[NiFe]_Group_1i	A			Hydrogenases	17
+Hydrogenases	Hydrogenases	[NiFe]_Group_1j	[NiFe]_Group_1j	A			Hydrogenases	18
+Hydrogenases	Hydrogenases	[NiFe]_Group_1k	[NiFe]_Group_1k	A			Hydrogenases	19
+Hydrogenases	Hydrogenases	[NiFe]_Group_2a	[NiFe]_Group_2a	A			Hydrogenases	20
+Hydrogenases	Hydrogenases	[NiFe]_Group_2b	[NiFe]_Group_2b	A			Hydrogenases	21
+Hydrogenases	Hydrogenases	[NiFe]_Group_2c	[NiFe]_Group_2c	A			Hydrogenases	22
+Hydrogenases	Hydrogenases	[NiFe]_Group_2d	[NiFe]_Group_2d	A			Hydrogenases	23
+Hydrogenases	Hydrogenases	[NiFe]_Group_2e	[NiFe]_Group_2e	A			Hydrogenases	24
+Hydrogenases	Hydrogenases	[NiFe]_Group_3a	[NiFe]_Group_3a	A			Hydrogenases	25
+Hydrogenases	Hydrogenases	[NiFe]_Group_3b	[NiFe]_Group_3b	A			Hydrogenases	26
+Hydrogenases	Hydrogenases	[NiFe]_Group_3c	[NiFe]_Group_3c	A			Hydrogenases	27
+Hydrogenases	Hydrogenases	[NiFe]_Group_3d	[NiFe]_Group_3d	A			Hydrogenases	28
+Hydrogenases	Hydrogenases	[NiFe]_Group_4a	[NiFe]_Group_4a	A			Hydrogenases	29
+Hydrogenases	Hydrogenases	[NiFe]_Group_4b	[NiFe]_Group_4b	A			Hydrogenases	30
+Hydrogenases	Hydrogenases	[NiFe]_Group_4c	[NiFe]_Group_4c	A			Hydrogenases	31
+Hydrogenases	Hydrogenases	[NiFe]_Group_4d	[NiFe]_Group_4d	A			Hydrogenases	32
+Hydrogenases	Hydrogenases	[NiFe]_Group_4e	[NiFe]_Group_4e	A			Hydrogenases	33
+Hydrogenases	Hydrogenases	[NiFe]_Group_4f	[NiFe]_Group_4f	A			Hydrogenases	34
+Hydrogenases	Hydrogenases	[NiFe]_Group_4g	[NiFe]_Group_4g	A			Hydrogenases	35
+Hydrogenases	Hydrogenases	[NiFe]_Group_4h	[NiFe]_Group_4h	A			Hydrogenases	36
+Hydrogenases	Hydrogenases	[NiFe]_Group_4i	[NiFe]_Group_4i	A			Hydrogenases	37

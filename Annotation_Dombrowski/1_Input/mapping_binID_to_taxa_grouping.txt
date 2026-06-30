@@ -1,0 +1,87 @@
+BinID	Cluster
+Barite_M1_B61	ANME-1 (Ca. Methanospirareceae)
+Barite_M2_B22	ANME-1 (Ca. Methanospirareceae)
+Barite_M3_B26	ANME-1 (Ca. Methanospirareceae)
+Barite_M33_B83	ANME-1 (Ca. Methanospirareceae)
+Barite_M4_B1	ANME-1 (Ca. Methanospirareceae)
+Flange_M5_B8	ANME-1 (Ca. Methanospirareceae)
+INS_M14_B50	ANME-1 (Ca. Methanospirareceae)
+INS_M19_B89	ANME-1 (Ca. Methanospirareceae)
+INS_M21_B75	ANME-1 (Ca. Methanospirareceae)
+INS_M27_B73	ANME-1 (Ca. Methanospirareceae)
+INS_M29_B88	ANME-1 (Ca. Methanospirareceae)
+Mohns_M83_B76	ANME-1 (Ca. Methanospirareceae)
+Aegir_M38_B4	ANME-1a / g. G60ANME1
+Aegir_M39_B45	ANME-1a / g. G60ANME1
+AMOR20_M1057	ANME-1a / g. G60ANME1
+Barite_M1_B69	ANME-1a / g. G60ANME1
+Barite_M2_B26	ANME-1a / g. G60ANME1
+Barite_M2_B29	ANME-1a / g. G60ANME1
+Barite_M4_B44	ANME-1a / g. G60ANME1
+Barite_M4_B48	ANME-1a / g. G60ANME1
+bin_164	ANME-1a / g. G60ANME1
+Chimney19_Bin_00366	ANME-1a / g. G60ANME1
+INS_M10_B59	ANME-1a / g. G60ANME1
+INS_M11_B44	ANME-1a / g. G60ANME1
+INS_M12_B72	ANME-1a / g. G60ANME1
+INS_M14_B57	ANME-1a / g. G60ANME1
+INS_M19_B55	ANME-1a / g. G60ANME1
+INS_M19_B74	ANME-1a / g. G60ANME1
+INS_M20_B4	ANME-1a / g. G60ANME1
+INS_M21_B55	ANME-1a / g. G60ANME1
+INS_M27_B158	ANME-1a / g. G60ANME1
+INS_M29_B112	ANME-1a / g. G60ANME1
+INS_M29_B136	ANME-1a / g. G60ANME1
+INS_M34_B68	ANME-1a / g. G60ANME1
+INS_M7_B47	ANME-1a / g. G60ANME1
+Mohns_M83_B148	ANME-1a / g. G60ANME1
+Mohns_M83_B21	ANME-1a / g. G60ANME1
+Mohns_M83_B473	ANME-1a / g. G60ANME1
+Mohns_M83_B56	ANME-1a / g. G60ANME1
+Barite_M1_B78	ANME-1a?, g. QEXZ01
+bin_70	ANME-1a?, g. QEXZ01
+bin_83	ANME-1a?, g. QEXZ01
+INS_M27_B67	ANME-1a?, g. QEXZ01
+INS_M28_B180	ANME-1a?, g. QEXZ01
+INS_M29_B13	ANME-1a?, g. QEXZ01
+Mohns_M84_B127	ANME-1a?, g. QEXZ01
+bin_40	ANME-1b? / g. QENH01
+Aegir_M38_B90	ANME-1c (Ca. Methanoxibalbensis)
+Aegir_M39_B54	ANME-1c (Ca. Methanoxibalbensis)
+AMOR20_M0004	ANME-1c (Ca. Methanoxibalbensis)
+AMOR20_M0005	ANME-1c (Ca. Methanoxibalbensis)
+Chimney19_MAG_00329	ANME-1c (Ca. Methanoxibalbensis)
+Mohns_M83_B247	ANME-1c (Ca. Methanoxibalbensis)
+Mohns_M83_B413	ANME-1c (Ca. Methanoxibalbensis)
+Mohns_M84_B110	ANME-2ab (Ca. f. Methanocomedenaceae)
+Barite_M2_B12	ANME-2c (Ca. Methanogaster)
+Barite_M3_B12	ANME-2c (Ca. Methanogaster)
+Barite_M33_B91	ANME-2c (Ca. Methanogaster)
+bin_28	ANME-2c (Ca. Methanogaster)
+INS_M31_B39	ANME-2c (Ca. Methanogaster)
+Mohns_M84_B51	ANME-2c (Ca. Methanogaster)
+AMOR20_M0231	ANME-2d (Ca. Methanoperedenaceae)
+AMOR20_M0831	ANME-2d (Ca. Methanoperedenaceae)
+AMOR20_M0919	ANME-2d (Ca. Methanoperedenaceae)
+AMOR20_M0920	ANME-2d (Ca. Methanoperedenaceae)
+HC21_M1445	ANME-2d (Ca. Methanoperedenaceae)
+Mohns_M84_B71	ANME-2d (Ca. Methanoperedenaceae)
+Mohns_M84_B82	ANME-3 (Ca. Methanovorans, g. DQIP01)
+Barite_M1_B14	Ca. Ethanoperedens (GoM-Arc1)
+INS_M27_B150	Ca. Ethanoperedens (GoM-Arc1)
+INS_M23_B18	Methermicoccus
+AMOR20_M0627	new Methanosarcinales family?
+AMOR20_M0977	new Methanosarcinales family?
+Flange_M5_B22	new Methanosarcinales family?
+HC21_M1544	new Methanosarcinales family?
+HC21_M1557	new Methanosarcinales family?
+Mohns_M84_B74	new Methanosarcinales family?
+INS_M21_B189	o. JACQPP01 (c. Syntropharchaeia)
+Mohns_M83_B445	o. JACQPP01 (c. Syntropharchaeia)
+AMOR20_M1018	AMOR20_M1018
+AMOR20_M1019	AMOR20_M1019
+Flange_M5_B38	Flange_M5_B38
+INS_M27_B53	INS_M27_B53
+INS_M29_B181	INS_M29_B181
+INS_M29_B45	INS_M29_B45
+Mohns_M83_B87	Mohns_M83_B87
