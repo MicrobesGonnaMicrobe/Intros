@@ -45,6 +45,8 @@ To perform the following analyses, you will need to install the Windows subsyste
 
 For easier management, I would also recommend installing Windows Terminal and use this to work in the Ubuntu tab: https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-us&gl=US
 
+You might need to restart your computer before the changes take effect.
+
 ## Downloading programs and setting up conda environments
 To understand what is conda and how we use it to manage programs, have a look at this conda tutorial: https://youtu.be/ukgogSsW7oI?si=qI2OWrUQxIDwJrD3
 
